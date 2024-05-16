@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aaronwang0509_python_pipeline_samples_1715896807351-push-trigger-input-set
+  identifier: Build_aaronwang0509_python_pipeline_samples_1715896807351pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CIPythonQuickstart
+  pipeline:
+    identifier: Build_aaronwang0509_python_pipeline_samples_1715896807351
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
